@@ -1,0 +1,48 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teqit.ATC.AppHost", "Teqit.ATC.AppHost\Teqit.ATC.AppHost.csproj", "{9D27546F-24BD-4D03-AD9C-CA72C2D11FDC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Teqit.ATC.ServiceDefaults", "Teqit.ATC.ServiceDefaults\Teqit.ATC.ServiceDefaults.csproj", "{9FAB20FA-23CB-42B2-84F6-EC3A09639243}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Teqit.ATC.ApiService", "Teqit.ATC.ApiService\Teqit.ATC.ApiService.csproj", "{D4BDF4A1-D8D8-432D-A905-890357CC1F30}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Teqit.ATC.Web", "Teqit.ATC.Web\Teqit.ATC.Web.csproj", "{A1F84997-A3CE-47E3-A0C1-0E410ED6402A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Teqit.ATC.Tests", "Teqit.ATC.Tests\Teqit.ATC.Tests.csproj", "{A71CB449-5109-487F-9976-25EDBBE8BDB3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D27546F-24BD-4D03-AD9C-CA72C2D11FDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D27546F-24BD-4D03-AD9C-CA72C2D11FDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D27546F-24BD-4D03-AD9C-CA72C2D11FDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D27546F-24BD-4D03-AD9C-CA72C2D11FDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FAB20FA-23CB-42B2-84F6-EC3A09639243}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FAB20FA-23CB-42B2-84F6-EC3A09639243}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FAB20FA-23CB-42B2-84F6-EC3A09639243}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FAB20FA-23CB-42B2-84F6-EC3A09639243}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4BDF4A1-D8D8-432D-A905-890357CC1F30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4BDF4A1-D8D8-432D-A905-890357CC1F30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4BDF4A1-D8D8-432D-A905-890357CC1F30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4BDF4A1-D8D8-432D-A905-890357CC1F30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1F84997-A3CE-47E3-A0C1-0E410ED6402A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1F84997-A3CE-47E3-A0C1-0E410ED6402A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1F84997-A3CE-47E3-A0C1-0E410ED6402A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1F84997-A3CE-47E3-A0C1-0E410ED6402A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A71CB449-5109-487F-9976-25EDBBE8BDB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A71CB449-5109-487F-9976-25EDBBE8BDB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A71CB449-5109-487F-9976-25EDBBE8BDB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A71CB449-5109-487F-9976-25EDBBE8BDB3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4E8F3E50-3FD5-4B7F-A127-46A56E93D97B}
+	EndGlobalSection
+EndGlobal
